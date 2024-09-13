@@ -1,13 +1,13 @@
-import { Html, Head, Main, NextScript } from "next/document";
+// pages/dashboard.js
+import React from 'react';
 
-export default function Document() {
+const Dashboard = () => {
   return (
-    <Html lang="en">
-      <Head />
-      <body className="antialiased">
-        <Main />
-        <NextScript />
-      </body>
-    </Html>
+    <div>
+      <h1>Dashboard</h1>
+      {/* Add your dashboard content here */}
+    </div>
   );
-}
+};
+
+export default Dashboard;
