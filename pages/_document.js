@@ -6,7 +6,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          {/* Add custom <head> tags here */}
+          {/* Add your custom <Head> elements here */}
         </Head>
         <body>
           <Main />
